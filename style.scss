@@ -1,0 +1,110 @@
+//  Primary Colors
+$nutmeg: hsl(14, 45%, 36%);
+$dark-raspberry: hsl(332, 51%, 32%);
+
+// Neutral
+$white: hsl(0, 0%, 100%);
+$rose-white: hsl(330, 100%, 98%);
+$eggshell: hsl(30, 54%, 90%);
+$light-grey: hsl(30, 18%, 87%);
+$wenge-brown: hsl(30, 10%, 34%);
+$dark-charcoal: hsl(24, 5%, 18%);
+
+// Body Copy
+$paragraph-size: 16px;
+
+// Fonts
+$weight-400: 400;
+$weight-600: 600;
+$weight-700: 700;
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background-color: $eggshell;
+}
+main {
+  background-color: $white;
+  max-width: 50%;
+  border-radius: 25px;
+  padding: 50px;
+  margin-block: 70px;
+  list-style: inside;
+}
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+h1 {
+  letter-spacing: 2px;
+  font-family: 'Young Serif', serif;
+  font-weight: $weight-400;
+  font-size: 36px;
+  color: $dark-charcoal;
+  margin: 25px 0;
+}
+
+section {
+  margin-block: 25px;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: $weight-400;
+  color: $dark-charcoal;
+  opacity: 0.9;
+}
+
+.preparation {
+  background-color: $rose-white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.red {
+  color: $dark-raspberry;
+  font-family: 'Outfit', sans-serif;
+  font-weight: $weight-700;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  margin-block: 0 20px;
+}
+.total > li::marker {
+  color: $dark-raspberry;
+}
+
+li {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: $weight-400;
+  color: $dark-charcoal;
+  opacity: 0.8;
+  padding: 7px 10px;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+li::marker {
+  color: $nutmeg;
+  font-weight: $weight-700;
+  // font-size: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  color: $nutmeg;
+  padding-block: 20px;
+  font-weight: $weight-600;
+}
+
+.bold {
+  font-weight: $weight-700;
+  color: $dark-charcoal;
+  opacity: 0.9;
+}
