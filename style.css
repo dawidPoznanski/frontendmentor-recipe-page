@@ -42,6 +42,8 @@ p {
   font-weight: 400;
   color: hsl(24, 5%, 18%);
   opacity: 0.9;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .preparation {
@@ -65,13 +67,14 @@ p {
 
 li {
   font-family: "Outfit", sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   color: hsl(24, 5%, 18%);
   opacity: 0.8;
-  padding: 7px 10px;
+  padding: 7px 0 0 14px;
   list-style-position: outside;
   margin-left: 20px;
+  line-height: 20px;
 }
 
 li::marker {
@@ -84,10 +87,51 @@ h2 {
   color: hsl(14, 45%, 36%);
   padding-block: 20px;
   font-weight: 600;
+  font-style: normal;
 }
 
 .bold {
   font-weight: 700;
   color: hsl(24, 5%, 18%);
   opacity: 0.9;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+table {
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+  margin: 15px 0;
+}
+
+tbody {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+tr {
+  border-bottom: 1px solid hsl(14, 45%, 36%);
+  width: 100%;
+  display: flex;
+}
+
+tr:last-child {
+  border: 0;
+}
+
+td {
+  width: 50%;
+  padding: 10px 20px;
+  color: hsl(24, 5%, 18%);
+  opacity: 0.9;
+  font-size: 17px;
+}
+
+.values {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+  padding: 10px 0;
 }/*# sourceMappingURL=style.css.map */
